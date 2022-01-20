@@ -15,19 +15,39 @@ span{
 .octocat{
     display: inline-block;
     margin: 5px;
+    border-bottom: solid rgb(156, 156, 156) 1px;
+    
 }
 
 .authors{
     position: relative;
-    width: 150px;  
-    bottom: 35px;
-    left: 175px;
+    width: 8rem;  
+    bottom: 17px;
+    left: 40px;
 }
 
 .image-caption{
     position: relative; 
-    border: solid;
     width: 45%;
+    left: 155px;
+    bottom: 10px;
+    text-align: right;
+}
+
+a:link, a:visited, a:hover,a:focus, a:active {
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+}
+
+.image-number{
+    position: relative;
+    top: 5px;
+}
+
+.image-footer{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 12px;
 }
 
 li {
