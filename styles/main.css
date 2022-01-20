@@ -1,0 +1,57 @@
+* { 
+    box-sizing: border-box; 
+    overflow-wrap: break-word; 
+    word-break: break-all;
+}
+
+img{
+    width: 5rem;
+}
+
+.authors{
+    position: relative;
+    width: 300px;  
+}
+
+.image-footer > span:first-child{
+    border: solid;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+img[src*='saritocat']{
+    border: solid;
+    border-width: 1px;
+    border-color:rgb(156, 156, 156);
+    border-radius: 5px;
+    width: 20rem;
+    height: auto;
+    position: relative;
+}
+
+img[src*='topguntocat']{
+    border: solid;
+    border-width: 1px;
+    border-color:rgb(156, 156, 156);
+    border-radius: 5px;
+    width: 20rem;
+    height: auto;
+    position: relative;
+    left: 335px;
+    bottom: 445px;
+}
+
+img[src*='carlostocat']{
+    border: solid;
+    border-width: 1px;
+    border-color:rgb(156, 156, 156);
+    border-radius: 5px;
+    width: 20rem;
+    height: auto;
+    position: relative;
+    left: 670px;
+    bottom: 890px;
+}
