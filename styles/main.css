@@ -8,14 +8,26 @@ img{
     width: 5rem;
 }
 
-.authors{
-    position: relative;
-    width: 300px;  
+span{
+    color: gray;
 }
 
-.image-footer > span:first-child{
-    border: solid;
+.octocat{
+    display: inline-block;
+    margin: 5px;
+}
+
+.authors{
     position: relative;
+    width: 150px;  
+    bottom: 35px;
+    left: 175px;
+}
+
+.image-caption{
+    position: relative; 
+    border: solid;
+    width: 45%;
 }
 
 li {
@@ -39,9 +51,7 @@ img[src*='topguntocat']{
     border-radius: 5px;
     width: 20rem;
     height: auto;
-    position: relative;
-    left: 335px;
-    bottom: 445px;
+    position: relative; 
 }
 
 img[src*='carlostocat']{
@@ -52,6 +62,36 @@ img[src*='carlostocat']{
     width: 20rem;
     height: auto;
     position: relative;
-    left: 670px;
-    bottom: 890px;
+}
+
+img[src*='JohnCreek']{
+    height: auto;
+    width: 25px;
+    border-radius: 5px;
+    float: right;
+    padding-left: 3px;
+}
+
+img[src*='leereilly']{
+    height: auto;
+    width: 25px;
+    border-radius: 5px;
+    float: right;
+    padding-left: 3px;
+}
+
+img[src*='tonyjaramillo']{
+    height: auto;
+    width: 25px;
+    border-radius: 5px;
+    float: right;
+    padding-left: 3px;
+}
+
+img[src*='jeejkang']{
+    height: auto;
+    width: 25px;
+    border-radius: 5px;
+    float: right;
+    padding-left: 3px;
 }
