@@ -15,8 +15,7 @@ span{
 .octocat{
     display: inline-block;
     margin: 5px;
-    border-bottom: solid rgb(156, 156, 156) 1px;
-    
+    border-bottom: solid rgb(189, 189, 189) 1px;
 }
 
 .authors{
@@ -30,8 +29,17 @@ span{
     position: relative; 
     width: 45%;
     left: 155px;
-    bottom: 10px;
     text-align: right;
+}
+
+li::before {
+    content: "◣"; 
+    position: absolute;
+    color: rgb(189, 189, 189);
+    font-size: 12px;
+    transform: rotate(315deg);
+    top: -21px;
+    right: 6px;
 }
 
 a:link, a:visited, a:hover,a:focus, a:active {
@@ -41,7 +49,8 @@ a:link, a:visited, a:hover,a:focus, a:active {
 
 .image-number{
     position: relative;
-    top: 5px;
+    top: 15px;
+    color:rgb(189, 189, 189)
 }
 
 .image-footer{
@@ -57,8 +66,8 @@ li {
 img[src*='saritocat']{
     border: solid;
     border-width: 1px;
-    border-color:rgb(156, 156, 156);
-    border-radius: 5px;
+    border-color:rgb(189, 189, 189);
+    border-radius: 3px;
     width: 20rem;
     height: auto;
     position: relative;
@@ -67,8 +76,8 @@ img[src*='saritocat']{
 img[src*='topguntocat']{
     border: solid;
     border-width: 1px;
-    border-color:rgb(156, 156, 156);
-    border-radius: 5px;
+    border-color:rgb(189, 189, 189);
+    border-radius: 3px;
     width: 20rem;
     height: auto;
     position: relative; 
@@ -77,8 +86,8 @@ img[src*='topguntocat']{
 img[src*='carlostocat']{
     border: solid;
     border-width: 1px;
-    border-color:rgb(156, 156, 156);
-    border-radius: 5px;
+    border-color:rgb(189, 189, 189);
+    border-radius: 3px;
     width: 20rem;
     height: auto;
     position: relative;
@@ -115,3 +124,4 @@ img[src*='jeejkang']{
     float: right;
     padding-left: 3px;
 }
+
