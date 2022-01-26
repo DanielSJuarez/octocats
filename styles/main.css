@@ -53,6 +53,10 @@ a:link, a:visited, a:hover,a:focus, a:active {
     color:rgb(189, 189, 189)
 }
 
+.image-number::before {
+    content: "#";
+  }
+  
 .image-footer{
     font-family: sans-serif;
     font-weight: 700;
@@ -125,3 +129,109 @@ img[src*='jeejkang']{
     padding-left: 3px;
 }
 
+/*
+* { 
+    box-sizing: border-box; 
+    overflow-wrap: break-word; 
+    word-break: break-all;
+}
+
+body{
+    text-align: center;
+    font-family: Helvetica, arial, sans-serif; have mulitple defaults
+}
+
+img{
+    width:100%
+
+ul{
+    list-style: none;
+    padding: 0; ul's have default padding
+}
+
+.octocat{
+    display: inline-block;
+    width: 30% use percentages when using cols.
+}
+
+.octocat > a {
+    display: inline-block;
+    border: solid 1px #cacaca;
+    border-radius: 3px;
+    position relative;
+    width: 100%
+    height: 100%
+}
+
+.octocat > a::after{
+    content: '';
+    hieght: 0;
+    width: 0;
+    border-top: solid 10px #cacaca; what every border has the color is the direction of the arrows so you would exchange bottom, left right
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+    position: absolute;
+    top:100%
+    right: 1%;
+}
+
+.image-number::before{
+    content: '#';
+}
+
+.image-footer{
+    border-bottom: solid 1px #cacacaa;
+    padding-bottom: 15px;
+    padding-top: 15px; or padding: 15px 0px;
+    position: relative;
+}
+
+.image-number{
+    position: absolute;
+    top: 50%
+    transform: translateY(-50%);
+    left: 0%;
+}
+
+.authors > li > a{
+    display: inline-block;
+    width: 30px;
+}
+
+.authors {
+    display: inline-block;
+}
+
+.image-caption{
+    text-align: right;
+}
+
+.authors img{
+    vertical-align: middle;
+}
+*/
+
+/* flex
+.octodex{
+    display: flex;
+}
+
+.octocat{
+    flex: 1;
+    margin: auto 15px;
+}
+
+.image-footer {
+    display: flex;
+}
+
+.image-caption{
+    display: flex;
+    margin-left: auto;
+}
+
+.authors > li > a {
+    display: inline-block;
+    width: 30px;
+}
+*/
